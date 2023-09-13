@@ -21,12 +21,18 @@ pokeForm.addEventListener("submit", function (e) {
     <p>${guessed.pokeName}</p>
     <p>${guessed.pokeDex}</p>
     <p>${guessed.pokeGen}</p>
-    <button onclick="deleteCard(event)">DELETE</button>
+    <button onclick="checked(event)">CHECKED!</button>
+    <button onclick="deleteCard(event)">DELETE?</button>
+
     `;
 
   const cardSection = document.getElementById("guessedMon");
   cardSection.appendChild(guessedCard);
 });
+const checked = function (e) {
+  const tag1 = e.target.parentElement;
+  tag1.style.textDecoration = "line-through";
+};
 const deleteCard = function (e) {
   const clickedButton = e.target;
   console.log(clickedButton.parentElement);

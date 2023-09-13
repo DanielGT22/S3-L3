@@ -2,7 +2,8 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: hwb(0 36% 18%);
+  background: rgb(255,0,0);
+  background: linear-gradient(180deg, rgba(255,0,0,1) 44%, rgba(0,0,0,1) 45%, rgba(252,255,251,1) 46%);
 }
 
 h1 {
@@ -14,7 +15,9 @@ form {
   main {
     width: 500px;
     margin: 2em auto;
-    background-color: #8abd85;
+    background: rgb(255,0,0);
+    background: linear-gradient(117deg, rgba(255,0,0,1) 44%, rgba(0,0,0,1) 45%, rgba(252,255,251,1) 46%);
+    border: solid 5px black;
     padding: 20px;
   }
   main form label {
@@ -40,9 +43,14 @@ form {
 
 .poke-card {
     display: inline-block;
+    height: 200px;
     width: 200px;
     text-align: center;
-    background: #00f4f4;
+    background-image: url(../Poké_Ball_icon.svg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
     padding-bottom: 15px;
     border: 1px solid black;
     border-radius: 10px;
