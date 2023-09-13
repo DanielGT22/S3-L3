@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: hwb(0 36% 18%);
+}
+
+h1 {
+    text-align: center;
+}
+form {
+    display: inline;
+  }
+  main {
+    width: 500px;
+    margin: 2em auto;
+    background-color: #8abd85;
+    padding: 20px;
+  }
+  main form label {
+    width: 6em;
+    display: inline-block;
+  }
+  main form input {
+    width: 25em;
+    padding: 0.5em;
+    border-radius: 20px;
+  }
+  main form button {
+    margin-top: 1em;
+    font-size: 1.1em;
+    border-radius: 10px;
+  }
+  form div {
+    margin-bottom: 0.5em;
+  }
+  form div:last-of-type {
+  text-align: center;
+}
+
+.poke-card {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    background: #00f4f4;
+    padding-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+  }
